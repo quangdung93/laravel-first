@@ -23,3 +23,8 @@ Route::get('/contact', function () {
 Route::get('/about', function () {
     return 'This is about page!';
 });
+
+
+Route::get('/visit', function () {
+    return 'This is visit page!';
+});
