@@ -19,3 +19,7 @@ Route::get('/', function () {
 Route::get('/contact', function () {
     return 'Contact Us';
 });
+
+Route::get('/about', function () {
+    return 'This is about page!';
+});
