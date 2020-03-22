@@ -31,3 +31,5 @@ Route::get('/visit', function () {
 
 
 Route::get('/customer','CustomerController@index');
+
+Route::post('/customer','CustomerController@store');
