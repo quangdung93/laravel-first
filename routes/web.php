@@ -28,3 +28,6 @@ Route::get('/about', function () {
 Route::get('/visit', function () {
     return 'This is visit page!';
 });
+
+
+Route::get('/customer','CustomerController@index');
